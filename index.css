@@ -1,0 +1,35 @@
+
+/* navigation bar start css  */
+nav{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+nav > ul{
+    display: flex;
+    align-items: center;
+}
+nav li{
+    list-style: none;
+    margin-right: 50px;
+
+}
+nav a{
+    text-decoration: none;
+    color: black;
+}
+.title-r{
+    color:rgb(248, 95, 78);
+     
+}
+.nav-logo{
+    font-size: 40px;
+}
+.primary-btn{
+    border: none;
+    padding: 12px 32px;
+    font-size: 16px;
+    color: white;
+    background: rgb(248, 95, 78);
+    border-radius: 5px;
+}
