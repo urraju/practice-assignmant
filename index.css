@@ -1,9 +1,36 @@
+/* css font family */
+ 
+  @import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;500;600;700;800&family=Righteous&family=Ysabeau+SC:wght@1;100;200;300;400;500;600;800&display=swap');
+
+  *{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+ 
+body{
+    font-family: 'Open Sans', sans-serif;
+}
 
 /* navigation bar start css  */
+
+.header-section{
+    background-color: #FFF8F3;
+    width: 1300px;
+    background-image: url(images/header_bg.png);
+    
+    background-repeat: no-repeat;
+    background-position: bottom right;
+    
+}
 nav{
     display: flex;
     justify-content: space-between;
     align-items: center;
+    margin: 0px 200px;
+    /* background-image: url(images/developer.png);
+    background-position: bottom left ;
+    background-repeat: no-repeat; */
 }
 nav > ul{
     display: flex;
@@ -19,17 +46,182 @@ nav a{
     color: black;
 }
 .title-r{
-    color:rgb(248, 95, 78);
+     color: #FD6E0A;
+     font-weight: 800;
+     
      
 }
 .nav-logo{
-    font-size: 40px;
+    font-size: 45px;
+    color: #181818;
 }
 .primary-btn{
     border: none;
-    padding: 12px 32px;
-    font-size: 16px;
+    padding: 10px 15px;
+    font-size: 14px;
     color: white;
-    background: rgb(248, 95, 78);
+    background-color: #FD6E0A;
     border-radius: 5px;
+    font-weight: 550;
+    max-width: 150px;
+}
+.btn-new{
+    background: white;
+    border: 1px solid #FD6E0A;
+    color: #FD6E0A;
+}
+/* banner-section start */
+.banner-section{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 30px 30px 0px 150px;
+}
+.banner-content{
+  width: 500px;
+}
+.banner-img img{
+    width: 600px;
+}
+.banner-title{
+    color:  #474747;
+    font-family: Open Sans;
+    font-size: 45px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+}
+.banner-heading{
+color: #181818;
+font-family: Open Sans;
+font-size: 40px;
+font-style: normal;
+font-weight: 700;
+margin-bottom: 20px;
+}
+.banner-p{
+color:  #757575;
+font-family: Open Sans;
+font-size: 15px;
+font-weight: 400;
+margin-bottom: 20px;
+ 
+}
+.banner-content span{
+    font-weight: 400;
+    margin-right: 6px;
+     
+}
+
+/* about section start  */
+
+.about-section{
+    background-color: #FFF8F3;
+    width: 1000px;
+    margin: 0 auto;
+    text-align: center;
+    padding: 50px;
+    margin-top: 100px;
+    transform: (50% - 50%);
+    border-radius: 10px;
+    border-left: 8px solid #FD6E0A;
+}
+.about-h2{
+    color:#181818;
+    text-align: center;
+    font-family: Open Sans;
+    font-size: 35px;
+    font-weight: 700;
+    line-height: normal;
+    margin-bottom: 30px;
+}
+.about-p{
+color:  #757575;
+text-align: center;
+font-size: 18px;
+font-weight: 400;
+line-height: 30px;
+margin-bottom: 30px;
+}
+.about-address{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+.about-info p{
+    color: #757575;
+    margin-bottom: 8px;
+}
+
+/* EDUCATION SECTION START  */
+
+.education-section{
+    margin: auto;
+    text-align: center;
+    margin-top: 100px;
+}
+.education-section h3{
+color:  #474747;
+font-family: Open Sans;
+font-size: 30px;
+font-style: normal;
+font-weight: 700;
+line-height: normal;
+
+}
+.education-content{
+    margin-top: 50px;
+}
+.education-content h3{
+color:  #181818;
+text-align: center;
+font-family: Open Sans;
+font-size: 35px;
+font-style: normal;
+font-weight: 700;
+line-height: normal;
+margin-bottom: 20px;
+}
+.education-content p{
+ color: var(--dark-03, #757575);
+text-align: center;
+font-family: Open Sans;
+font-size: 18px;
+font-style: normal;
+font-weight: 400;
+line-height: 30px;
+width: 800px;
+margin: 0 auto;
+margin-bottom: 80px;
+margin-top: 20px;
+}
+.card{
+    width: 250px;
+    padding: 30px;
+    box-shadow: 5px 4px 30px rgba(0, 0, 0, 0.097);
+    border-top: 5px solid #FD6E0A;
+    border-radius: 10px 0 0 0px;
+    text-align: left;
+}
+.education-card{
+    display: flex;
+    align-items: center;
+    justify-content:space-evenly ;
+}
+.card strong{
+color: var(--dark-01, #181818);
+text-align: center;
+font-family: Open Sans;
+font-size: 20px;
+font-style: normal;
+font-weight: 700;
+line-height: normal;
+}
+.card p{
+    color: var(--dark-03, #757575);
+font-family: Open Sans;
+font-size: 16px;
+font-style: normal;
+font-weight: 400;
+line-height: 28px;
 }
