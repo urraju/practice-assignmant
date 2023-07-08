@@ -16,7 +16,7 @@ body{
 
 .header-section{
     background-color: #FFF8F3;
-    width: 1300px;
+    width: 100%;
     background-image: url(images/header_bg.png);
     
     background-repeat: no-repeat;
