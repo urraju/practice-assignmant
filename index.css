@@ -313,7 +313,7 @@ footer{
 .footer-content{
     display: flex;
     align-items: center;
-    justify-content: space-between;
+    justify-content: space-evenly;
     /* justify-content: center; */
     margin-top: 30px;
     padding: 30px;
@@ -363,4 +363,23 @@ footer{
 }
 .with{
     width: 100%;
+}
+.footer-icon span{
+    width: 30px;
+    height: 30px;
+    line-height: 30px;
+    text-align: center;
+    background: white;
+    display: inline-block;
+    margin-top: 20px;
+    color: #FD6E0A;
+    border-radius: 50%;
+    border: 1px solid #FD6E0A;
+    cursor: pointer;
+}
+.footer-icon span:hover{
+    color: white;
+    background-color: #FD6E0A;
+    border: 1px solid white;
+    transition: all .3s;
 }
