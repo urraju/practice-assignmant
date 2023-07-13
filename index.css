@@ -383,3 +383,76 @@ footer{
     border: 1px solid white;
     transition: all .3s;
 }
+
+/* RESPONSIVE PART START  */
+
+
+@media screen and (max-width: 576px) {
+    
+    .header-section{
+        background-size: contain;
+    }
+     nav{
+        display: flex;
+        flex-direction: column;
+         
+        
+        
+        
+    }
+    .banner-section{
+        display: flex;
+        flex-direction: column;
+        padding-left: 0;
+        
+        
+    }
+    .banner-img img{
+        
+        width: 100%;
+    }
+    .banner-content{
+         padding-left: 120px;
+         width: 100%;
+    }
+
+    .about-address{
+        display: flex;
+        flex-direction: column;
+         
+    }
+    .about-info{
+        margin-bottom: 40px;
+    }
+    .about-section{
+        width: 90%;
+        padding: 30px;
+    }
+    .education-section{
+        width: 100%;
+        padding: 30px;
+    }
+    .education-card{
+        display: flex;
+        flex-direction: column;
+        gap: 20px;
+    }
+    .education-content p{
+        width: 90%;
+
+    }
+    .ex-card{
+        width: 400px;
+    }
+    .ex-card strong{
+        display: block;
+    }
+    .footer-content{
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+    }
+    .footer-form{
+        width: 100%;
+    }
+}
